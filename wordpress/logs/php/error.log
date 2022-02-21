@@ -1,0 +1,10 @@
+[11-Feb-2022 06:33:37 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\varsh\Local Sites\first-assign\app\public\wp-includes\update.php on line 413
+[11-Feb-2022 06:33:37 UTC] PHP Stack trace:
+[11-Feb-2022 06:33:37 UTC] PHP   1. {main}() C:\Users\varsh\Local Sites\first-assign\app\public\wp-admin\update.php:0
+[11-Feb-2022 06:33:37 UTC] PHP   2. Theme_Upgrader->install() C:\Users\varsh\Local Sites\first-assign\app\public\wp-admin\update.php:293
+[11-Feb-2022 06:33:37 UTC] PHP   3. Theme_Upgrader->run() C:\Users\varsh\Local Sites\first-assign\app\public\wp-admin\includes\class-theme-upgrader.php:250
+[11-Feb-2022 06:33:37 UTC] PHP   4. do_action() C:\Users\varsh\Local Sites\first-assign\app\public\wp-admin\includes\class-wp-upgrader.php:858
+[11-Feb-2022 06:33:37 UTC] PHP   5. WP_Hook->do_action() C:\Users\varsh\Local Sites\first-assign\app\public\wp-includes\plugin.php:474
+[11-Feb-2022 06:33:37 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\varsh\Local Sites\first-assign\app\public\wp-includes\class-wp-hook.php:331
+[11-Feb-2022 06:33:37 UTC] PHP   7. wp_update_plugins() C:\Users\varsh\Local Sites\first-assign\app\public\wp-includes\class-wp-hook.php:305
+[11-Feb-2022 06:33:37 UTC] PHP   8. trigger_error() C:\Users\varsh\Local Sites\first-assign\app\public\wp-includes\update.php:413
